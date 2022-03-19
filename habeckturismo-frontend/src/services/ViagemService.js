@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const VIAGEM_API_URL = "http://localhost:8080/viagem";
+const VIAGEM_API_URL = "https://habeckturismo.herokuapp.com/viagem";
 
 class ViagemService {
     getAllViagens() {

@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const USUARIO_API_URL = "http://localhost:8080/usuario";
+const USUARIO_API_URL = "https://habeckturismo.herokuapp.com/usuario";
 
 class UsuarioService {
     getAllUsuarios() {

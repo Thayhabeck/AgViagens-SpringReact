@@ -20,7 +20,7 @@ export default function Destinos() {
         empty: true
     });
     useEffect(() => {
-        axios.get(`http://localhost:8080/destino?size=12&page=${pageNb}&sort=cidade`).then(response => {
+        axios.get(`https://habeckturismo.herokuapp.com/destino?size=12&page=${pageNb}&sort=cidade`).then(response => {
             const data = response.data;
             setPage(data);
         });

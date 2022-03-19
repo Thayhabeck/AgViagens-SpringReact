@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const REGIAO_API_URL = "http://localhost:8080/regiao";
+const REGIAO_API_URL = "https://habeckturismo.herokuapp.com/regiao";
 
 class RegiaoService {
     getAllRegioes() {
